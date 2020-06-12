@@ -357,7 +357,7 @@ def export_all(export_format="xlsx"):
             logging.info(f'{das_name} exported successfully as csv')
 
 
-if __name__  == '__main__':
+if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
     export_all()
 
